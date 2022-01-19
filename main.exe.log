@@ -1,0 +1,116 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\C++\Мульт\main.exe, файл: c:\users\user\downloads\codeblocks\mingw\include\txlib.h, строка: 8733, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005072FC (32-bit), Flags: CMdRe0, Thread: 0x86C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00403610 in D:\C++\Мульт\main.exe: txCreateWindow() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (8733)
+
+# 1 0x0042E3FD in D:\C++\Мульт\main.exe: main() at D:/C++/Мульт/main.cpp (143):
+
+    141:     int yDoor=220;
+    142:     double razmMan2=0.7;
+=>  143:     txCreateWindow(800,600);
+    144: 
+    145:     while(xMan1>450)
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HWND__* {anonymous}::TX::txCreateWindow(double, double, bool) at c:\users\user\downloads\codeblocks\mingw\include\txlib.h (8733):
+
+   8731:         {
+   8732: $       SetLastErrorEx (ERROR_INVALID_DATA, 0);
+=> 8733: $       _TX_ON_DEBUG (TX_ERROR ("\a" "Окно рисования уже создано!"));
+   8734: $       return wnd;
+   8735:         }
+
+# 1 in int main() at D:\C++\Мульт\main.cpp (143):
+
+    141:     int yDoor=220;
+    142:     double razmMan2=0.7;
+=>  143:     txCreateWindow(800,600);
+    144: 
+    145:     while(xMan1>450)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\user\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 22 2021 19:11:38, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Oct 22 2021 19:11:58
+
+Run file:	D:\C++\Мульт\main.exe
+Directory:	D:\C++\Мульт
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\C++\Мульт\main.exe, файл: c:\users\user\downloads\codeblocks\mingw\include\txlib.h, строка: 8733, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005082FC (32-bit), Flags: CMdRe0, Thread: 0x27D0 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00403610 in D:\C++\Мульт\main.exe: txCreateWindow() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (8733)
+
+# 1 0x0042E7FF in D:\C++\Мульт\main.exe: main() at D:/C++/Мульт/main.cpp (166):
+
+    164:    //drawRoom();
+    165: 
+=>  166:      txCreateWindow(800,600);
+    167:      drawRoom();
+    168:     int xMan1=680;
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HWND__* {anonymous}::TX::txCreateWindow(double, double, bool) at c:\users\user\downloads\codeblocks\mingw\include\txlib.h (8733):
+
+   8731:         {
+   8732: $       SetLastErrorEx (ERROR_INVALID_DATA, 0);
+=> 8733: $       _TX_ON_DEBUG (TX_ERROR ("\a" "Окно рисования уже создано!"));
+   8734: $       return wnd;
+   8735:         }
+
+# 1 in int main() at D:\C++\Мульт\main.cpp (166):
+
+    164:    //drawRoom();
+    165: 
+=>  166:      txCreateWindow(800,600);
+    167:      drawRoom();
+    168:     int xMan1=680;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\user\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Nov 10 2021 17:40:03, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Nov 10 2021 17:40:24
+
+Run file:	D:\C++\Мульт\main.exe
+Directory:	D:\C++\Мульт
+
+--------------------------------------------------
