@@ -1,0 +1,116 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\user\Desktop\Малкин Артём\Мульт\bin\Debug\Мульт.exe, файл: c:\users\user\downloads\codeblocks\mingw\include\txlib.h, строка: 13252, функция: bool {anonymous}::TX::txLine(double, double, double, double, HDC),
+
+Сообщение: Окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x17F0 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041E28F in C:\Users\user\Desktop\Малкин Артём\Мульт\bin\Debug\Мульт.exe: txLine() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (13252)
+
+# 1 0x0042CB8D in C:\Users\user\Desktop\Малкин Артём\Мульт\bin\Debug\Мульт.exe: main() at C:/Users/user/Desktop/Малкин Артём/Мульт/main.cpp (5):
+
+      3: int main()
+      4:     {
+=>    5:     txLine (0,451,800,458);
+      6:     return 0;
+      7:     }
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txLine(double, double, double, double, HDC) at c:\users\user\downloads\codeblocks\mingw\include\txlib.h (13252):
+
+  13250: bool txLine (double x0, double y0, double x1, double y1, HDC dc /*= txDC()*/)
+  13251:     {
+=>13252: $1  if (_TX_DEFAULT_HDC_FAILED (dc)) return false;
+  13253: 
+  13254: $   bool ok  = txGDI ((Win32::MoveToEx (dc, ROUND (x0), ROUND (y0), NULL)), dc);
+
+# 1 in int main() at C:\Users\user\Desktop\Малкин Артём\Мульт\main.cpp (5):
+
+      3: int main()
+      4:     {
+=>    5:     txLine (0,451,800,458);
+      6:     return 0;
+      7:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\user\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 22 2021 17:58:57, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Sep 22 2021 17:59:12
+
+Run file:	C:\Users\user\Desktop\Малкин Артём\Мульт\bin\Debug\Мульт.exe
+Directory:	C:\Users\user\Desktop\Малкин Артём\Мульт
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\user\Desktop\Малкин Артём\Мульт\bin\Debug\Мульт.exe, файл: c:\users\user\downloads\codeblocks\mingw\include\txlib.h, строка: 13252, функция: bool {anonymous}::TX::txLine(double, double, double, double, HDC),
+
+Сообщение: Окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x361C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041E28F in C:\Users\user\Desktop\Малкин Артём\Мульт\bin\Debug\Мульт.exe: txLine() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (13252)
+
+# 1 0x0042CB8D in C:\Users\user\Desktop\Малкин Артём\Мульт\bin\Debug\Мульт.exe: main() at C:/Users/user/Desktop/Малкин Артём/Мульт/main.cpp (5):
+
+      3: int main()
+      4:     {
+=>    5:     txLine (0,451,800,458);
+      6:     return 0;
+      7:     }
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txLine(double, double, double, double, HDC) at c:\users\user\downloads\codeblocks\mingw\include\txlib.h (13252):
+
+  13250: bool txLine (double x0, double y0, double x1, double y1, HDC dc /*= txDC()*/)
+  13251:     {
+=>13252: $1  if (_TX_DEFAULT_HDC_FAILED (dc)) return false;
+  13253: 
+  13254: $   bool ok  = txGDI ((Win32::MoveToEx (dc, ROUND (x0), ROUND (y0), NULL)), dc);
+
+# 1 in int main() at C:\Users\user\Desktop\Малкин Артём\Мульт\main.cpp (5):
+
+      3: int main()
+      4:     {
+=>    5:     txLine (0,451,800,458);
+      6:     return 0;
+      7:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\user\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 22 2021 18:00:00, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Sep 22 2021 18:00:14
+
+Run file:	C:\Users\user\Desktop\Малкин Артём\Мульт\bin\Debug\Мульт.exe
+Directory:	C:\Users\user\Desktop\Малкин Артём\Мульт
+
+--------------------------------------------------
